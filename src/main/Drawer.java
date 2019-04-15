@@ -1,3 +1,4 @@
+package main;
 /**
  * Class used to contain scraped Drawer data.
  * 

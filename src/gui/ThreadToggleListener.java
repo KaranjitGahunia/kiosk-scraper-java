@@ -1,7 +1,10 @@
+package gui;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 
 import javax.swing.JToggleButton;
+
+import main.KioskThread;
 
 /**
  * ItemListener implementation used to monitor when thread button is interacted with in GuiWindow class.

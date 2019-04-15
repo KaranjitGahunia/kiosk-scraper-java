@@ -1,4 +1,5 @@
-
+package main;
+import gui.InitialWindow;
 
 /**
  * Main class for this application

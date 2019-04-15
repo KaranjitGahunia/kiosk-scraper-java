@@ -1,3 +1,4 @@
+package gui;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import java.awt.BorderLayout;
@@ -5,6 +6,12 @@ import java.awt.FlowLayout;
 import javax.swing.JLabel;
 import javax.swing.SwingConstants;
 import javax.swing.WindowConstants;
+
+import main.FilePrinter;
+import main.Kiosk;
+import main.KioskThread;
+import main.Location;
+
 import javax.swing.JTextArea;
 import javax.swing.JToggleButton;
 import java.awt.Font;

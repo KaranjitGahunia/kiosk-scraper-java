@@ -1,3 +1,4 @@
+package main;
 /**
  * Log class represents a log entry for a particular drawer.
  * Contains the log text and the timestamp.
