@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Trebuchet MS, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.header {								/* General header shenanigans - City */
+  overflow: hidden;	
+  padding: 20px 20px;
+}
+
+.header a{
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 15px;
+  border-radius: 5px;  
+}
+
+.header a.logo {						/* Top-left text "Laptop Kiosk Site" */
+  font-size: 35px;
+  font-weight: bold;
+  background-color: inherit;
+}
+
+.header-citybutton:hover {					
+  background-color: #63bc7d;
+  color: white;
+}
+
+.header-northbutton:hover {					
+  background-color: #63a3bc;
+  color: white;
+}
+
+.header-southbutton:hover {					
+  background-color: #3dac94;
+  color: white;
+}
+
+.header a.active {						/* Makes currently selected box different to others */
+  background-color: black;
+  color: inherit;
+}
+
+.header-right {								/* Used to make the boxes at the right stay on the right */
+  float: right;
+}
+
+table{            							/* Make table take up whole page width */
+  width: 100%;
+}
+
+th{               							/* Table Header - Change colour */
+  background-color: #b2b2b2;
+}
+
+table, th, td{    							/* All - Give border and change padding */
+  border: 1px solid #ddd;
+  border-collapse: collapse; 
+  padding-left: 7px;
+  padding-left: 7px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+}
+
+th{               				/* Make Headings Left Align and more padding */
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 10px;
+  text-align: left;
+}
+
+td:nth-child(1){				/* Drawer number */
+  width: 5%;
+}
+
+td:nth-child(2), td:nth-child(3), td:nth-child(4){  /* Checkout/open/Error */
+  width: 6%;
+}
+
+td:nth-child(5){				/* Rack Number */
+  width: 4%;
+}
+
+td:nth-child(6){				/* Barcode */
+  width: 7%;
+}
+
+td:nth-child(7){				/* RFID */
+  width: 7%;
+}
+
+td:nth-child(8){				/* Student last used */
+  width: 7%;
+}
+
+td:nth-child(9){				/* Note */
+  width: 10%;
+}
+
+td:nth-child(11){				/* Timestamp */
+  width: 13%;
+}
+
+tr:nth-child(even){ 			/* Make every second line a different colour so it's easier to read */
+  background-color: #ececec;
+  }
+
+tr:hover{           			/* Change colour of row when mouse hover to make specific lines easier to read */
+  background-color: #ddd;
+}
+
+a:link, a:visited{
+  color: blue;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+.footer{
+  overflow: hidden;    
+  background-color: inherit;
+  padding: 1px 10px;
+  
+}
+ 
+.footerinfo{
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 25px;
+  border-radius: 5px;     
+}
+
+#footertimestamp{
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 25px;
+  border-radius: 5px;   
+}
+
+.bottombutton:hover{
+  background-color:  ;
+  color: white;
+}
+ 
+
+a.blacktext{                                /* For making the text in the boxes in the top-right have black text (Might now be redundant) */
+  color: black
+}
+
+.loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 2s linear infinite;
+    float: right;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg);}
+    100% { transform: rotate(360deg);}
+}
+
+.timeStamp ,.logMessage, .loader {
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out;
+}
