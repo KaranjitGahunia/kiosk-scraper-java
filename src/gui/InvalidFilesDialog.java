@@ -6,7 +6,7 @@ import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
-import java.io.IOException;
+import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
@@ -129,13 +129,11 @@ public class InvalidFilesDialog extends JDialog implements ActionListener {
 	 * @param fileName - String representing name of file that is missing.
 	 */
 	private void copyFile(String fileName) {
-		// TODO Get files as stream for .jar implementation
-		Path existingFile = new File("src\\base files\\" + fileName).toPath();
+		InputStream in = getClass().getResourceAsStream("/base files/" + fileName); 
 		Path newFile = new File(directory + "\\" + fileName).toPath();
 		try {
-			Files.copy(existingFile, newFile);
-		} catch (IOException e) {
-			System.err.println("Error while copying " + existingFile.toString() + " to " + newFile.toString());
+			Files.copy(in, newFile);
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
