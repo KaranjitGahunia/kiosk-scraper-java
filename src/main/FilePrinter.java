@@ -65,7 +65,7 @@ public class FilePrinter {
 	
 	/**
 	 * Private method called by printToFile method.
-	 * Adds the basic headings <th> for each column of the table.
+	 * Adds the basic headings "th" for each column of the table.
 	 * If log scraping is disabled, it is mentioned in the header for the log fields.
 	 * 
 	 * @param tableElement - the HTML table element to add the header entries to.
@@ -106,7 +106,7 @@ public class FilePrinter {
 	
 	/**
 	 * Private method called by printToFile method for each drawer in kiosk.
-	 * Adds a row <tr> of drawer data <td> elements to the tableElement parameter.
+	 * Adds a row "tr" of drawer data "td" elements to the tableElement parameter.
 	 * 
 	 * @param tableElement - the HTML table element to add the header entries to.
 	 * @param drawer - drawer object containing all scraped data for that drawer.
@@ -142,7 +142,7 @@ public class FilePrinter {
 	/**
 	 * Private method called by printToFile method.
 	 * Adds information about when the page was last updated and the average update time.
-	 * The information is formatted and added to the "footertimestamp" <div> element of the page.
+	 * The information is formatted and added to the "footertimestamp" "div" element of the page.
 	 * 
 	 * @param aKiosk - Kiosk object containing the data for all drawers of a particular kiosk.
 	 * @param average - String representation of the average time taken to update the page.
