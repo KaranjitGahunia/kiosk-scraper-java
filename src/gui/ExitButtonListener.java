@@ -1,7 +1,10 @@
+package gui;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import javax.swing.JComponent;
+
+import main.KioskThread;
 
 /**
  * ActionListener implementation used to monitor when exit button is interacted with in GuiWindow class.

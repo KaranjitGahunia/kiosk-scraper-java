@@ -1,3 +1,4 @@
+package gui;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
@@ -6,6 +7,9 @@ import java.awt.Font;
 import java.awt.Toolkit;
 
 import javax.swing.SwingConstants;
+
+import main.FilePrinter;
+
 import javax.swing.JButton;
 import javax.swing.JFileChooser;
 

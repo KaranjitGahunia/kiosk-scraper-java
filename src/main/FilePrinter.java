@@ -1,3 +1,4 @@
+package main;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -115,7 +116,7 @@ public class FilePrinter {
 		Element headerRow = new Element("tr");
 		headerRow.appendTo(tableElement);
 		Element drawerNumber = new Element("td").appendTo(headerRow);
-		drawerNumber.append("<a href=\"http://kiosk.aut.ac.nz/LockerBox/Drawers/Edit/" + Integer.toString(drawer.getDrawerId()) + "\"> " + Integer.toString(drawer.getDrawerNumber()));
+		drawerNumber.append("<a target=\"_blank\" href=\"http://kiosk.aut.ac.nz/LockerBox/Drawers/Edit/" + Integer.toString(drawer.getDrawerId()) + "\"> " + Integer.toString(drawer.getDrawerNumber()));
 		Element checkedOut= new Element("td").appendTo(headerRow);
 		checkedOut.append(drawer.isTakenOut());
 		Element open = new Element("td").appendTo(headerRow);
@@ -133,7 +134,7 @@ public class FilePrinter {
 		Element note = new Element("td").appendTo(headerRow);
 		note.append(drawer.getNote());
 		Element logEntry = new Element("td").appendTo(headerRow);
-		logEntry.append("<a href=\"" + log.getLogURL() + "\">" + log.getLogEntry());
+		logEntry.append("<a target=\"_blank\" href=\"" + log.getLogURL() + "\">" + log.getLogEntry());
 		Element logTimestamp = new Element("td").appendTo(headerRow);
 		logTimestamp.append(log.getLogTimestamp());
 	}

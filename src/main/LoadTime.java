@@ -1,3 +1,4 @@
+package main;
 /**
  * Class used to provide average time values.
  * Stores the sum value of all time values added together.
