@@ -1,4 +1,5 @@
 package main;
+
 import gui.InitialWindow;
 
 /**
@@ -17,7 +18,7 @@ public class Main {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		new InitialWindow();
+		 new InitialWindow();
 	}
 	
 	/*
@@ -34,3 +35,27 @@ public class Main {
 	 * - Export to runnable
 	 */
 }
+
+//public class Main {
+//	
+//	public static void main(String[] args) {
+////		Kiosk north = new Kiosk(Location.NORTH);
+//		Kiosk south = new Kiosk(Location.SOUTH);
+////		Kiosk city = new Kiosk(Location.CITY);
+//
+//		Webscraper ws = null;
+//		ws = new Webscraper(south.getKioskDrawers());
+//		ws.scrapeData(true);
+////		ws = new Webscraper(city.getKioskDrawers());
+////		ws.scrapeData(true);
+////		ws = new Webscraper(north.getKioskDrawers());
+////		ws.scrapeData(true);
+//		
+//		JSONParser jparse = new JSONParser();
+//		jparse.createJSON(south);
+////		jparse.createJSON(city);
+////		jparse.createJSON(north);
+//		
+//		System.out.println("Finished");
+//	}
+//}

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <kiosk location="north">
+    <drawer>
+      <drawerId>57</drawerId>
+      <drawerNumber>1</drawerNumber>
+      <isTaken>false</isTaken>
+      <isOpen>false</isOpen>
+      <isInError>true</isInError>
+      <rackId>1</rackId>
+      <barcode>A564191B</barcode>
+      <rfid>1061</rfid>
+      <lastStudent>hxd3581</lastStudent>
+      <note>1 - Needs reimaging</note>
+      <logEntry>Drawer state changed to closed</logEntry>
+      <logTimestamp>5/04/2019 12:05:55 p.m.</logTimestamp>
+    </drawer>
+    <drawer>
+      <drawerId>58</drawerId>
+      <drawerNumber>2</drawerNumber>
+      <isTaken>false</isTaken>
+      <isOpen>false</isOpen>
+      <isInError>false</isInError>
+      <rackId>1</rackId>
+      <barcode>A564192B</barcode>
+      <rfid>1062</rfid>
+      <lastStudent>bqt6240</lastStudent>
+      <note>2</note>
+      <logEntry>Drawer state changed to closed</logEntry>
+      <logTimestamp>20/05/2019 3:23:48 p.m.</logTimestamp>
+    </drawer>
+    <drawer>
+      <drawerId>59</drawerId>
+      <drawerNumber>3</drawerNumber>
+      <isTaken>false</isTaken>
+      <isOpen>false</isOpen>
+      <isInError>false</isInError>
+      <rackId>1</rackId>
+      <barcode>A564193B</barcode>
+      <rfid>1063</rfid>
+      <lastStudent>zmm5860</lastStudent>
+      <note>3</note>
+      <logEntry>RFID Check</logEntry>
+      <logTimestamp>20/05/2019 5:58:27 p.m.</logTimestamp>
+    </drawer>
+    <drawer>
+      <drawerId>60</drawerId>
+      <drawerNumber>4</drawerNumber>
+      <isTaken>false</isTaken>
+      <isOpen>false</isOpen>
+      <isInError>false</isInError>
+      <rackId>1</rackId>
+      <barcode>A564194B</barcode>
+      <rfid>1064</rfid>
+      <lastStudent>zmm5860</lastStudent>
+      <note>4</note>
+      <logEntry>Drawer state changed to closed</logEntry>
+      <logTimestamp>16/05/2019 11:00:24 a.m.</logTimestamp>
+    </drawer>
+    <drawer>
+      <drawerId>62</drawerId>
+      <drawerNumber>5</drawerNumber>
+      <isTaken>false</isTaken>
+      <isOpen>false</isOpen>
+      <isInError>false</isInError>
+      <rackId>1</rackId>
+      <barcode>A564195B</barcode>
+      <rfid>1065</rfid>
+      <lastStudent>pdg1880</lastStudent>
+      <note>5</note>
+      <logEntry>Drawer state changed to closed</logEntry>
+      <logTimestamp>17/05/2019 10:28:20 a.m.</logTimestamp>
+    </drawer>
+    <drawer>
+      <drawerId>63</drawerId>
+      <drawerNumber>6</drawerNumber>
+      <isTaken>false</isTaken>
+      <isOpen>false</isOpen>
+      <isInError>false</isInError>
+      <rackId>1</rackId>
+      <barcode>A564196B</barcode>
+      <rfid>1066</rfid>
+      <lastStudent>yft8333</lastStudent>
+      <note>6</note>
+      <logEntry>Drawer state changed to closed</logEntry>
+      <logTimestamp>17/05/2019 2:23:03 p.m.</logTimestamp>
+    </drawer>
+    <drawer>
+      <drawerId>64</drawerId>
+      <drawerNumber>7</drawerNumber>
+      <isTaken>false</isTaken>
+      <isOpen>false</isOpen>
+      <isInError>false</isInError>
+      <rackId>1</rackId>
+      <barcode>A564197B</barcode>
+      <rfid>1067</rfid>
+      <lastStudent>zmm5860</lastStudent>
+      <note>7</note>
+      <logEntry>Drawer state changed to closed</logEntry>
+      <logTimestamp>17/05/2019 1:12:36 p.m.</logTimestamp>
+    </drawer>
+    <drawer>
+      <drawerId>65</drawerId>
+      <drawerNumber>8</drawerNumber>
+      <isTaken>false</isTaken>
+      <isOpen>false</isOpen>
+      <isInError>false</isInError>
+      <rackId>1</rackId>
+      <barcode>A564198B</barcode>
+      <rfid>1068</rfid>
+      <lastStudent>qwd8145</lastStudent>
+      <note>8</note>
+      <logEntry>Drawer state changed to closed</logEntry>
+      <logTimestamp>28/05/2018 5:57:15 p.m.</logTimestamp>
+    </drawer>
+    <drawer>
+      <drawerId>66</drawerId>
+      <drawerNumber>9</drawerNumber>
+      <isTaken>false</isTaken>
+      <isOpen>false</isOpen>
+      <isInError>false</isInError>
+      <rackId>1</rackId>
+      <barcode>A564199B</barcode>
+      <rfid>1069</rfid>
+      <lastStudent>mjm7535</lastStudent>
+      <note>9</note>
+      <logEntry>Drawer state changed to closed</logEntry>
+      <logTimestamp>22/05/2017 3:58:30 p.m.</logTimestamp>
+    </drawer>
+    <drawer>
+      <drawerId>67</drawerId>
+      <drawerNumber>10</drawerNumber>
+      <isTaken>false</isTaken>
+      <isOpen>false</isOpen>
+      <isInError>false</isInError>
+      <rackId>1</rackId>
+      <barcode>A564200B</barcode>
+      <rfid>1070</rfid>
+      <lastStudent>rzh1534</lastStudent>
+      <note>10</note>
+      <logEntry>Checkout by rzh1534</logEntry>
+      <logTimestamp>6/05/2016 2:08:39 p.m.</logTimestamp>
+    </drawer>
+    <drawer>
+      <drawerId>61</drawerId>
+      <drawerNumber>11</drawerNumber>
+      <isTaken>true</isTaken>
+      <isOpen>false</isOpen>
+      <isInError>true</isInError>
+      <rackId>2</rackId>
+      <barcode/>
+      <rfid/>
+      <lastStudent/>
+      <note/>
+      <logEntry/>
+      <logTimestamp/>
+    </drawer>
+    <drawer>
+      <drawerId>68</drawerId>
+      <drawerNumber>12</drawerNumber>
+      <isTaken>false</isTaken>
+      <isOpen>false</isOpen>
+      <isInError>true</isInError>
+      <rackId>2</rackId>
+      <barcode>A539209B</barcode>
+      <rfid>1071</rfid>
+      <lastStudent/>
+      <note>11</note>
+      <logEntry/>
+      <logTimestamp/>
+    </drawer>
+    <drawer>
+      <drawerId>69</drawerId>
+      <drawerNumber>13</drawerNumber>
+      <isTaken>false</isTaken>
+      <isOpen>false</isOpen>
+      <isInError>true</isInError>
+      <rackId>2</rackId>
+      <barcode>A539210B</barcode>
+      <rfid>1072</rfid>
+      <lastStudent/>
+      <note>12</note>
+      <logEntry/>
+      <logTimestamp/>
+    </drawer>
+    <drawer>
+      <drawerId>70</drawerId>
+      <drawerNumber>14</drawerNumber>
+      <isTaken>false</isTaken>
+      <isOpen>false</isOpen>
+      <isInError>true</isInError>
+      <rackId>2</rackId>
+      <barcode>A539211B</barcode>
+      <rfid>1073</rfid>
+      <lastStudent/>
+      <note>13</note>
+      <logEntry/>
+      <logTimestamp/>
+    </drawer>
+    <drawer>
+      <drawerId>71</drawerId>
+      <drawerNumber>15</drawerNumber>
+      <isTaken>false</isTaken>
+      <isOpen>false</isOpen>
+      <isInError>true</isInError>
+      <rackId>2</rackId>
+      <barcode>A539213B</barcode>
+      <rfid>1074</rfid>
+      <lastStudent/>
+      <note>14</note>
+      <logEntry/>
+      <logTimestamp/>
+    </drawer>
+    <drawer>
+      <drawerId>72</drawerId>
+      <drawerNumber>16</drawerNumber>
+      <isTaken>false</isTaken>
+      <isOpen>false</isOpen>
+      <isInError>true</isInError>
+      <rackId>2</rackId>
+      <barcode>A539214B</barcode>
+      <rfid>1075</rfid>
+      <lastStudent/>
+      <note>15</note>
+      <logEntry/>
+      <logTimestamp/>
+    </drawer>
+  </kiosk>
+</root>

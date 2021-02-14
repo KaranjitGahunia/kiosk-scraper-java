@@ -1,4 +1,5 @@
 package main;
+
 import java.time.LocalTime;
 
 /**
@@ -11,6 +12,7 @@ import java.time.LocalTime;
  */
 public class KioskThread implements Runnable {
 
+	public static int delay = 15000;
 	private Kiosk aKiosk;
 	private Thread thread;
 	private boolean pause;
@@ -52,32 +54,34 @@ public class KioskThread implements Runnable {
 	@Override
 	public void run() {
 		// Create local objects to use in this method.
-		FilePrinter fp = new FilePrinter();
+		JSONParser jParser = new JSONParser();
 		LoadTime lt = new LoadTime();
 		Webscraper scraper = new Webscraper(aKiosk.getKioskDrawers());
 		// Loop thread operation until terminate isn't true.
 		while (!terminate) {
-			// If pause is true, sleep this thread for 3 seconds and go back to top of loop.
-			if (pause) {
-				try {
+			try {
+				// If pause is true, sleep this thread for 3 seconds and go back to top of loop.
+				if (pause) {
 					Thread.sleep(1000);
 					continue;
-				} catch (InterruptedException e) {
-					e.printStackTrace();
 				}
+				// Store system time at start of updating process.
+				long startTime = System.currentTimeMillis();
+				// Get kiosk data.
+				scraper.scrapeData(logScraping);
+				aKiosk.setTimeDataRetrieved(LocalTime.now());
+				// Print data to JSON file.
+				jParser.createJSON(aKiosk);
+				// Update the LoadTime object with how long this update took.
+				// Current system time - startTime var gives you how long it took in milliseconds.
+				lt.update((System.currentTimeMillis() - startTime));
+				// Print to sysout (possibly GUI JTextArea).
+				System.out.println(aKiosk.getKioskLocation().name() + " updated in " + (System.currentTimeMillis() - startTime) + "ms");
+				System.out.println(aKiosk.getKioskLocation().name() + " sleep initiated for " + (delay / 1000) + " seconds");
+				Thread.sleep(delay);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
 			}
-			// Store system time at start of updating process.
-			long startTime = System.currentTimeMillis();
-			// Get kiosk data.
-			scraper.scrapeData(logScraping);
-			aKiosk.setTimeDataRetrieved(LocalTime.now());
-			// Print data to file.
-			fp.printToFile(aKiosk, lt.toString(), logScraping);
-			// Update the LoadTime object with how long this update took.
-			// Current system time - startTime var gives you how long it took in milliseconds.
-			lt.update((System.currentTimeMillis() - startTime));
-			// Print to sysout (possibly GUI JTextArea).
-			System.out.println(aKiosk.getKioskLocation().name() + " updated in " + (System.currentTimeMillis() - startTime) + "ms");
 		}
 	}
 	

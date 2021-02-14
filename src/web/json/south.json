@@ -1,0 +1,542 @@
+[
+  {
+    "drawerNumber": 1,
+    "drawerId": 26,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "1",
+    "barcode": "A564161B",
+    "rfid": "1031",
+    "lastStudent": "syv6473",
+    "note": "1",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 26
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 2,
+    "drawerId": 27,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "1",
+    "barcode": "A564162B",
+    "rfid": "1032",
+    "lastStudent": "vdv4872",
+    "note": "2",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 27
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 3,
+    "drawerId": 28,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "1",
+    "barcode": "A564163B",
+    "rfid": "1033",
+    "lastStudent": "ksg6016",
+    "note": "3",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 28
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 4,
+    "drawerId": 29,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "1",
+    "barcode": "A564164B",
+    "rfid": "1034",
+    "lastStudent": "rpp1685",
+    "note": "4 ",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 29
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 5,
+    "drawerId": 30,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "1",
+    "barcode": "A564165B",
+    "rfid": "1035",
+    "lastStudent": "xkm1724",
+    "note": "5",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 30
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 6,
+    "drawerId": 31,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "1",
+    "barcode": "A564166B",
+    "rfid": "1036",
+    "lastStudent": "xdm5357",
+    "note": "6",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 31
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 7,
+    "drawerId": 32,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "1",
+    "barcode": "A564167B",
+    "rfid": "1037",
+    "lastStudent": "nnp4943",
+    "note": "7",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 32
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 8,
+    "drawerId": 33,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "1",
+    "barcode": "A564168B",
+    "rfid": "1038",
+    "lastStudent": "npp0237",
+    "note": "8 ",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 33
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 9,
+    "drawerId": 34,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "1",
+    "barcode": "A564169B",
+    "rfid": "1039",
+    "lastStudent": "wyf8137",
+    "note": "9",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 34
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 10,
+    "drawerId": 35,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "1",
+    "barcode": "A564170B",
+    "rfid": "1040",
+    "lastStudent": "ksg6016",
+    "note": "10",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 35
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 11,
+    "drawerId": 36,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "2",
+    "barcode": "A564171B",
+    "rfid": "1041",
+    "lastStudent": "ttt0946",
+    "note": "11",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 36
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 12,
+    "drawerId": 37,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "2",
+    "barcode": "A564172B",
+    "rfid": "1042",
+    "lastStudent": "zcc9828",
+    "note": "12",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 37
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 13,
+    "drawerId": 38,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "2",
+    "barcode": "A564173B",
+    "rfid": "1043",
+    "lastStudent": "ghk5897",
+    "note": "13",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 38
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 14,
+    "drawerId": 39,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "2",
+    "barcode": "A564174B",
+    "rfid": "1044",
+    "lastStudent": "nfg5747",
+    "note": "14",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 39
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 15,
+    "drawerId": 40,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "true",
+    "rackId": "2",
+    "barcode": "A564175B",
+    "rfid": "1045",
+    "lastStudent": "hvh8099",
+    "note": "15 - (REQ0629239) - in WA406B - needs configuring",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 40
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 16,
+    "drawerId": 41,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "2",
+    "barcode": "A564176B",
+    "rfid": "1046",
+    "lastStudent": "sxg7561",
+    "note": "16",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 41
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 17,
+    "drawerId": 42,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "2",
+    "barcode": "A564177B",
+    "rfid": "1047",
+    "lastStudent": "mfw6082",
+    "note": "17",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 42
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 18,
+    "drawerId": 43,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "2",
+    "barcode": "A564178B",
+    "rfid": "1048",
+    "lastStudent": "gtt5400",
+    "note": "18",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 43
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 19,
+    "drawerId": 44,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "2",
+    "barcode": "A564179B",
+    "rfid": "1049",
+    "lastStudent": "gdc5691",
+    "note": "19",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 44
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 20,
+    "drawerId": 45,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "true",
+    "rackId": "2",
+    "barcode": "A564180B",
+    "rfid": "1050",
+    "lastStudent": "fgm2178",
+    "note": "20 - issued to staff gcarlson",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 45
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 21,
+    "drawerId": 46,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "3",
+    "barcode": "A564181B",
+    "rfid": "1051",
+    "lastStudent": "czr0860",
+    "note": "21",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 46
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 22,
+    "drawerId": 47,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "3",
+    "barcode": "A564182B",
+    "rfid": "1052",
+    "lastStudent": "rhv4182",
+    "note": "22",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 47
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 23,
+    "drawerId": 48,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "3",
+    "barcode": "A564183B",
+    "rfid": "1053",
+    "lastStudent": "hwr0767",
+    "note": "23",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 48
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 24,
+    "drawerId": 49,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "3",
+    "barcode": "A564184B",
+    "rfid": "1054",
+    "lastStudent": "mhb9183",
+    "note": "24",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 49
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 25,
+    "drawerId": 50,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "3",
+    "barcode": "A564185B",
+    "rfid": "1055",
+    "lastStudent": "Suzzie",
+    "note": "25 ",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 50
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 26,
+    "drawerId": 51,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "3",
+    "barcode": "A564186B",
+    "rfid": "1056",
+    "lastStudent": "xvw9780",
+    "note": "26",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 51
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 27,
+    "drawerId": 52,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "3",
+    "barcode": "A564187B",
+    "rfid": "1057",
+    "lastStudent": "yjd2450",
+    "note": "27",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 52
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 28,
+    "drawerId": 53,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "3",
+    "barcode": "A564188B",
+    "rfid": "1058",
+    "lastStudent": "yjd2450",
+    "note": "28",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 53
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 29,
+    "drawerId": 54,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "3",
+    "barcode": "A564189B",
+    "rfid": "1059",
+    "lastStudent": "yjd2450",
+    "note": "29",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 54
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 30,
+    "drawerId": 55,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "3",
+    "barcode": "A564190B",
+    "rfid": "1060",
+    "lastStudent": "mhb9183",
+    "note": "30",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 55
+    },
+    "overdue": false
+  }
+]

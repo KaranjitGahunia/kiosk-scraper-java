@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>North Laptops</title>
+  <link href="style/style.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="js/scriptJson.js"></script>
+ </head>
+ <body onload=getContent("north");>
+  <div class="header" style="background-color: #63a3bc; color: #63a3bc;">
+   <a class="logo">Laptop Kiosk Site</a>
+   <div class="header-right">
+    <a class="blacktext header-changeview" onclick=changeView();>Change View!</a>
+    <a class="blacktext header-citybutton" href="city.html">City</a>
+    <a class="active" href="">North</a>
+    <a class="blacktext header-southbutton" href="south.html">South</a>
+   </div>
+  </div>
+  <div class="simpleView">
+    <table id="dataContainer">
+    </table>
+  </div>
+  <div class="altView">
+    <div id="topTablesContainer">
+			<h2>Overdue</h2>
+      <div id="overdueContainer">
+        <table id="overdueTable" class="customTable">
+        </table>
+      </div>
+			<h2>Checked Out</h2>
+      <div id="checkedOutContainer">
+        <table id="checkedOutTable" class="customTable">
+        </table>
+      </div>
+      <h2>In Error or Open</h2>
+      <div id="inErrorContainer">
+        <table id="inErrorTable" class="customTable">
+        </table>
+      </div>
+    </div>
+    <div id="remainingContainer">
+      <h2>Available</h2>
+      <table id="remainingTable" class="customTable">
+      </table>
+    </div>
+  </div>
+  <div class="footer" style="background-color: #63a3bc;">
+   <div id="footertimestamp">
+   </div>
+   <div class="footerinfo">
+    <a class="bottombutton blacktext" href="http://kiosk.aut.ac.nz/LockerBox/Drawers?KioskId=3">Original Site</a>
+    <a>|</a>
+    <a class="bottombutton blacktext" href="http://kiosk.aut.ac.nz/LockerBox/Racks">All Racks</a>
+    <a>|</a>
+    <a class="bottombutton blacktext" href="http://kiosk.aut.ac.nz/LockerBox/">All Kiosks</a>
+   </div>
+  </div>
+ </body>
+</html>

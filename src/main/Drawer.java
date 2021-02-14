@@ -1,4 +1,5 @@
 package main;
+
 /**
  * Class used to contain scraped Drawer data.
  * 
@@ -17,6 +18,7 @@ public class Drawer {
 	private String lastStudent;
 	private String note;
 	private Log drawerLog;
+	private boolean overdue;
 
 	/**
 	 * Default Constructor
@@ -112,6 +114,24 @@ public class Drawer {
 		return rackId;
 	}
 	
+	/**
+	 * Getter for overdue variable
+	 * 
+	 * @return overdue - boolean
+	 */
+	public boolean getOverdue() {
+		return overdue;
+	}
+	
+	/**
+	 * Setter for overdue variable.
+	 * 
+	 * @param overdue - boolean
+	 */
+	public void setOverdue(boolean overdue) {
+		this.overdue = overdue;
+	}
+
 	/**
 	 * Modified setter for rackId
 	 * Takes param string, parses to int, and uses modulo operation

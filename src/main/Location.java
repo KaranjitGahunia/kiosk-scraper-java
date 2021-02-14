@@ -1,4 +1,5 @@
 package main;
+
 /**
  * Enum used to associate Kiosk location and drawer numbers for that particular Kiosk.
  * Class Kiosk uses enum Location.

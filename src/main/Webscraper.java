@@ -1,4 +1,13 @@
 package main;
+
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.Locale;
+
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -37,6 +46,9 @@ public class Webscraper {
 			getDrawerData(d);
 			if (logsEnabled) {
 				getLogData(d.getDrawerLog());
+				if (d.isTakenOut().equalsIgnoreCase("true")) {
+					isOverdue(d);
+				}
 			}
 		}
 	}
@@ -85,6 +97,21 @@ public class Webscraper {
 				log.setLogTimestamp(e.get(1).html());
 			}
 		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private void isOverdue(Drawer d) {
+		Log log = d.getDrawerLog();
+		try {
+			DateFormat df = new SimpleDateFormat("dd/MM/yyyy hh:mm:ss a", Locale.ENGLISH);
+			Date logStamp = df.parse(log.getLogTimestamp());
+			Calendar current = new GregorianCalendar();
+			current.add(Calendar.HOUR_OF_DAY, -3);
+			Date currentDate = new Date(current.getTimeInMillis());
+			d.setOverdue((logStamp.before(currentDate)));
+		} catch (ParseException e) {
+			System.err.println(log.getDrawerId() + ": " + log.getLogTimestamp());	
 			e.printStackTrace();
 		}
 	}

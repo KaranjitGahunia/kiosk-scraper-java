@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Trebuchet MS, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.header {								/* General header shenanigans - City */
+  overflow: hidden;
+  padding: 20px 20px;
+}
+
+.header a{
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 15px;
+  border-radius: 5px;
+}
+
+.header a.logo {						/* Top-left text "Laptop Kiosk Site" */
+  font-size: 35px;
+  font-weight: bold;
+  background-color: inherit;
+}
+
+.header-citybutton:hover {
+  background-color: #63bc7d;
+  color: white;
+}
+
+.header-northbutton:hover {
+  background-color: #63a3bc;
+  color: white;
+}
+
+.header-southbutton:hover {
+  background-color: #3dac94;
+  color: white;
+}
+
+.header-changeview:hover {
+  background-color: black;
+  color: white;
+}
+
+.header a.active {						/* Makes currently selected box different to others */
+  background-color: black;
+  color: inherit;
+}
+
+.header-right {								/* Used to make the boxes at the right stay on the right */
+  float: right;
+}
+
+table {            							/* Make table take up whole page width */
+  width: 100%;
+}
+
+table, td, th {    							/* All - Give border and change padding */
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  padding-left: 7px;
+  padding-left: 7px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+}
+
+thead, th {               							/* Table Header - Change colour, make Headings Left Align and more padding */
+  background-color: #b2b2b2;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 8px;
+  text-align: center;
+}
+
+.standard-cell {
+  width: 6%;
+}
+
+.note-cell {
+  width: 13%;
+}
+
+.timestamp-cell {
+  width: 13%;
+}
+
+tr:nth-child(even){ 			/* Make every second line a different colour so it's easier to read */
+  background-color: #ececec;
+  }
+
+tr:hover{           			/* Change colour of row when mouse hover to make specific lines easier to read */
+  background-color: #ddd;
+}
+
+a:link, a:visited{
+  color: blue;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+.footer{
+  overflow: hidden;
+  background-color: inherit;
+  padding: 1px 10px;
+
+}
+
+.footerinfo{
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 25px;
+  border-radius: 5px;
+}
+
+#footertimestamp{
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 25px;
+  border-radius: 5px;
+}
+
+.bottombutton:hover{
+  color: white;
+}
+
+a.blacktext{                                /* For making the text in the boxes in the top-right have black text (Might now be redundant) */
+  color: black
+}
+
+.altView {
+  display: none;
+  flex-direction:row;
+  justify-content: space-around;
+}
+
+#topTablesContainer {
+  display: flex;
+  flex-direction:column;
+  justify-content: flex-start;
+  width: 50%
+}
+
+#checkedOutContainer {
+  display:flex;
+  flex-direction:row;
+  padding: 5px;
+}
+
+#inErrorContainer {
+  display:flex;
+  flex-direction:row;
+  padding: 5px;
+}
+
+#remainingContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 5px;
+}
+
+.customTable {
+  background-color: white;
+}
+
+h2{
+  text-align: center;
+}

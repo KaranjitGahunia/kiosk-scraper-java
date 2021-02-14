@@ -1,0 +1,290 @@
+[
+  {
+    "drawerNumber": 1,
+    "drawerId": 57,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "1",
+    "barcode": "A564191B",
+    "rfid": "1061",
+    "lastStudent": "drt0742",
+    "note": "1",
+    "drawerLog": {
+      "logEntry": "Drawer state changed to closed",
+      "logTimestamp": "23/08/2020 12:37:25 PM",
+      "drawerId": 57
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 2,
+    "drawerId": 58,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "1",
+    "barcode": "A564192B",
+    "rfid": "1062",
+    "lastStudent": "jwt0878",
+    "note": "2",
+    "drawerLog": {
+      "logEntry": "Max returns checkins attempted by user jwt0878",
+      "logTimestamp": "11/08/2020 3:05:54 PM",
+      "drawerId": 58
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 3,
+    "drawerId": 59,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "true",
+    "rackId": "1",
+    "barcode": "A564193B",
+    "rfid": "1063",
+    "lastStudent": "",
+    "note": "3 - in loan",
+    "drawerLog": {
+      "logEntry": "Max returns checkins attempted by user xfs7289",
+      "logTimestamp": "17/03/2020 3:41:14 PM",
+      "drawerId": 59
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 4,
+    "drawerId": 60,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "1",
+    "barcode": "A564194B",
+    "rfid": "1064",
+    "lastStudent": "wayhan76",
+    "note": "4",
+    "drawerLog": {
+      "logEntry": "Drawer state changed to closed",
+      "logTimestamp": "31/07/2020 9:23:35 AM",
+      "drawerId": 60
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 5,
+    "drawerId": 62,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "1",
+    "barcode": "A564195B",
+    "rfid": "1065",
+    "lastStudent": "",
+    "note": "5",
+    "drawerLog": {
+      "logEntry": "Drawer state changed to closed",
+      "logTimestamp": "21/10/2019 11:46:29 AM",
+      "drawerId": 62
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 6,
+    "drawerId": 63,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "true",
+    "rackId": "1",
+    "barcode": "A564196B",
+    "rfid": "1066",
+    "lastStudent": "",
+    "note": "6 - in loan",
+    "drawerLog": {
+      "logEntry": "Max returns checkins attempted by user mhg8657",
+      "logTimestamp": "21/10/2019 7:53:26 PM",
+      "drawerId": 63
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 7,
+    "drawerId": 64,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "true",
+    "rackId": "1",
+    "barcode": "A564197B",
+    "rfid": "1067",
+    "lastStudent": "",
+    "note": "7 - incorrect charger ",
+    "drawerLog": {
+      "logEntry": "Max returns checkins attempted by user hdg3988",
+      "logTimestamp": "21/10/2019 7:54:44 PM",
+      "drawerId": 64
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 8,
+    "drawerId": 65,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "1",
+    "barcode": "A564198B",
+    "rfid": "1068",
+    "lastStudent": "",
+    "note": "8",
+    "drawerLog": {
+      "logEntry": "Drawer state changed to closed",
+      "logTimestamp": "28/05/2018 5:57:15 PM",
+      "drawerId": 65
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 9,
+    "drawerId": 66,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "1",
+    "barcode": "A564199B",
+    "rfid": "1069",
+    "lastStudent": "",
+    "note": "9",
+    "drawerLog": {
+      "logEntry": "Drawer state changed to closed",
+      "logTimestamp": "22/05/2017 3:58:30 PM",
+      "drawerId": 66
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 10,
+    "drawerId": 67,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "1",
+    "barcode": "A564200B",
+    "rfid": "1070",
+    "lastStudent": "",
+    "note": "10",
+    "drawerLog": {
+      "logEntry": "Checkout by rzh1534",
+      "logTimestamp": "6/05/2016 2:08:39 PM",
+      "drawerId": 67
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 11,
+    "drawerId": 61,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "false",
+    "rackId": "2",
+    "barcode": "",
+    "rfid": "",
+    "lastStudent": "",
+    "note": "",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 61
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 12,
+    "drawerId": 68,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "true",
+    "rackId": "2",
+    "barcode": "A539209B",
+    "rfid": "1071",
+    "lastStudent": "",
+    "note": "11",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 68
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 13,
+    "drawerId": 69,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "true",
+    "rackId": "2",
+    "barcode": "A539210B",
+    "rfid": "1072",
+    "lastStudent": "",
+    "note": "12",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 69
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 14,
+    "drawerId": 70,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "true",
+    "rackId": "2",
+    "barcode": "A539211B",
+    "rfid": "1073",
+    "lastStudent": "",
+    "note": "13",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 70
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 15,
+    "drawerId": 71,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "true",
+    "rackId": "2",
+    "barcode": "A539213B",
+    "rfid": "1074",
+    "lastStudent": "",
+    "note": "14",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 71
+    },
+    "overdue": false
+  },
+  {
+    "drawerNumber": 16,
+    "drawerId": 72,
+    "isTakenOut": "false",
+    "isOpen": "false",
+    "isInError": "true",
+    "rackId": "2",
+    "barcode": "A539214B",
+    "rfid": "1075",
+    "lastStudent": "",
+    "note": "15",
+    "drawerLog": {
+      "logEntry": "",
+      "logTimestamp": "",
+      "drawerId": 72
+    },
+    "overdue": false
+  }
+]

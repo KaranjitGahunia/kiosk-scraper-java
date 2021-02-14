@@ -8,8 +8,6 @@ import java.awt.Toolkit;
 
 import javax.swing.SwingConstants;
 
-import main.FilePrinter;
-
 import javax.swing.JButton;
 import javax.swing.JFileChooser;
 
@@ -17,6 +15,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
 import java.util.ArrayList;
+
+import main.JSONParser;
 
 /**
  * This class is used to create the GUI to start the program and select the directory.
@@ -110,7 +110,7 @@ public class InitialWindow implements ActionListener {
 	 */
 	public void selectDirectory() {
 		// Create a new JFileChooser object with default path set to C drive.
-		JFileChooser chooser = new JFileChooser("C:\\");
+		JFileChooser chooser = new JFileChooser("C:\\Users\\em12259\\Documents\\kiosktest");
 		// Perform "Go Up" action for JFileChooser to change the default path to "This PC".
 		chooser.getActionMap().get("Go Up").actionPerformed(null);;
 		// Only allow selection and viewing of directories in JFileChooser.
@@ -123,7 +123,7 @@ public class InitialWindow implements ActionListener {
 		/*
 		 * If the user successfully selected a directory, hide the InitialWindow frame.
 		 * Call checkDirectory method to see if the selected directory contains the required files.
-		 * Otherwise, will revert to showing and focussing on the InitialWindow frame.
+		 * Otherwise, will revert to showing and focusing on the InitialWindow frame.
 		 */
 		if(returnVal == JFileChooser.APPROVE_OPTION) {
 			frame.setVisible(false);
@@ -145,7 +145,7 @@ public class InitialWindow implements ActionListener {
 		File[] folderFiles = selectedFolder.listFiles();
 
 		// Create array of the names of the required files.
-		String[] requiredFileNames = {"city.html", "south.html", "north.html", "style.css", "script.js"};
+		String[] requiredFileNames = {"city.html", "south.html", "north.html"};
 		// Create ArrayList to store these values. Iterate through array and add to ArrayList.
 		// Use ArrayList as it is easier to remove items from it that from an array.
 		ArrayList<String> filesMissing = new ArrayList<String>();
@@ -165,7 +165,8 @@ public class InitialWindow implements ActionListener {
 		// In that case, set the static FilePrinter.directory variable to the selectedFolder's path, create GuiWindow object, and dispose of this objects frame.
 		// Otherwise, create and show a InvalidFilesDialog object which displays what files are missing and presents options to resolve this issue.
 		if (filesMissing.isEmpty()) {
-			FilePrinter.directory = selectedFolder.getAbsolutePath();
+			System.out.println(selectedFolder.getAbsolutePath() + "\\");
+			JSONParser.directory = selectedFolder.getAbsolutePath() + "\\";
 			new GuiWindow();
 			this.frame.dispose();
 		} else {

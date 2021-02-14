@@ -7,10 +7,10 @@ import javax.swing.JLabel;
 import javax.swing.SwingConstants;
 import javax.swing.WindowConstants;
 
-import main.FilePrinter;
 import main.Kiosk;
 import main.KioskThread;
 import main.Location;
+import main.JSONParser;
 
 import javax.swing.JTextArea;
 import javax.swing.JToggleButton;
@@ -255,7 +255,7 @@ public class GuiWindow implements ActionListener {
 		// If directoryButton is clicked, open the directory in windows explorer.
 		if ("directory".equals(eve.getActionCommand())) {
 			try {
-				Desktop.getDesktop().open(new File(FilePrinter.directory));
+				Desktop.getDesktop().open(new File(JSONParser.directory));
 				System.out.println("> Opening webpage directory");
 			} catch (IOException e) {
 				e.printStackTrace();
